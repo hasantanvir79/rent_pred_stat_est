@@ -9,4 +9,6 @@ matplotlib
 seaborn
 pandas
 sklearn
+streamlit_folium
+folium
 
