@@ -8,4 +8,5 @@ keras==2.2.4
 matplotlib
 seaborn
 pandas
+sklearn
 
