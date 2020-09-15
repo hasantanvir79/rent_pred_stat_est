@@ -6,7 +6,6 @@ from sklearn.ensemble import RandomForestClassifier
 import keras
 from streamlit_folium import folium_static
 
-import streamlit.components.v1 as components
 
 import folium
 from folium import plugins
@@ -313,7 +312,7 @@ m.add_children(plugins.HeatMap(stationArr, radius=15))
 #components.iframe("""test.html""")
 
 
-#folium_static(m)
+folium_static(m)
 
 
 st.markdown("<img src='https://g1.nh.ee/images/pix/file88261807_sa-logo.png' align='left' width=50%>", unsafe_allow_html=True)
