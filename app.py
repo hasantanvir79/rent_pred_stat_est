@@ -309,7 +309,6 @@ stationArr = df_rent[['lat', 'long', 'pricesqm']].values
 
 # plot heatmap
 m.add_children(plugins.HeatMap(stationArr, radius=15))
-#components.iframe("""test.html""")
 
 
 folium_static(m)
